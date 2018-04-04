@@ -17,7 +17,8 @@ module.exports = {
         'style-loader',
         'css-loader',
         'sass-loader'
-      ] }
+      ] },
+      {  test: /\.(jpe?g|png|woff|woff2|eot|ttf|svg)(\?[a-z0-9=.]+)?$/, use: 'url-loader?limit=100000' }
     ]
   },
   devtool: 'cheap-module-eval-source-map',
