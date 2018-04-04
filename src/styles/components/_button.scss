@@ -29,11 +29,23 @@
   color: white;
   font-weight: 500;
   padding: $s-size;
+
+  &--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+
+    &:active {
+      background: none;
+      transform: none;
+      box-shadow: none;
+    }
+  }
 }
 
-.button--link {
-  background: none;
-  border: none;
-  color: $off-white;
-  padding: 0;
+button:active {
+  background-color: darken($purple, 10%);
+  transform: translateY(4px);
+  box-shadow: 0 2px darken($purple, 20%);
 }
