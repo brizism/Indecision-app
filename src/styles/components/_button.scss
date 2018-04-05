@@ -9,6 +9,11 @@
   width: 100%;
   margin-bottom: $m-size;
   padding: 2.4rem;
+
+  @media (max-width: #{$bp-small}){
+    font-size: 2.7rem;
+    padding: 2rem;
+  }
 }
 
 .big-button:disabled {

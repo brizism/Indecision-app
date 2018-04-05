@@ -22,6 +22,10 @@ html {
 body {
   background: $dark-blue;
   font-size: $m-size;
+  
+  @media (max-width: #{$bp-small}){
+    font-size: 1.5rem;
+  }
 }
 
 h1{

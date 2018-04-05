@@ -12,3 +12,16 @@ $m-size: 2rem;
 $l-size: 5.2rem;
 $xl-size: 4.8rem;
 $desktop-breakpoint: 45rem;
+
+
+// Breakpoints
+$bp-small: 30em; // 480px
+$bp-medium: 48em; // 768px
+$bp-large: 64em; // 1024px
+$bp-xlarge: 120em; // 1920px
+
+// Media Queries
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";

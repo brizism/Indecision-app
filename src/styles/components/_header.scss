@@ -3,6 +3,10 @@
   margin-bottom: $m-size;
   padding: $m-size 0;
   text-align: center;
+
+  @media (max-width: #{$bp-small}){
+    padding: 0 0 2rem 0;
+  }
 }
 // BEM block element modifier
 .header__title {
@@ -17,6 +21,11 @@
   font-weight: 500;
   letter-spacing: 2px;
   margin: 0;
+
+  @media (max-width: #{$bp-small}){
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
 }
 
 @media (min-width: $desktop-breakpoint) {
